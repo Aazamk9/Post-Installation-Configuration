@@ -22,19 +22,39 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
+- Configure Roles, Departments, and Teams within osTicket
+- Allow anyone to create tickets (primarily users)
+- Configure Agents (workers), Users (customers), and SLA (Service Level Agreement)
+- Configure Help Topics
+  
 <h2>Configuration Steps</h2>
 
-<h3>1.</h3>
+<h3>1.</h3> (Admin Panel -> Agents -> Roles),  Create a "Supreme Admin" and assign it all permissions
 
-<h3>2.</h3>
+<h3>2.</h3> (Admin Panel -> Agents -> Departments),  Create a "System Administrator" department and keep all default settings
 
-<h3>3.</h3>
+<h3>3.</h3> (Admin Panel -> Agents -> Teams),  Create 2 teams / 2 levels of support ( Level I Support & Level II Support)
 
-<h3>4.</h3>
+<h3>4.</h3> (Admin Panel -> Settings -> User Settings), Enable "Require registration and login to create tickets"
+
+<h3>5.</h3> (Admin Panel -> Agents -> Add New), Create two new agents: John and Jane
+
+<h3>6.</h3> (Agent Panel -> Users -> Add New), Create two new users: Karen and Ken 
+
+<h3>7.</h3>(Admin Panel -> Manage -> SLA) Create the folloing Service Level Agreements:
+
+- Sev-A (1 hour, 24/7)
+- Sev-B (4 hours, 24/7)
+- Sev-C (8 hours, business hours)
+
+<h3>8.</h3> (Admin Panel -> Manage -> Help Topics) Create the following help topics:
+
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
+
+
+
+
 
